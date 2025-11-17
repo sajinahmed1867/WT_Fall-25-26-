@@ -55,7 +55,56 @@
                 border:1px solid green;
 
              }
+
+             .activity-item {
+        display: flex;
+        justify-content: space-between;
+        background: #f5f5f5ff;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 8px;
+             }
+
+        .remove-btn {
+        background: red;
+        color: white;
+        padding: 3px 8px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Participant Registration</h2>
+
+    <input id="fullname" type="full name" placeholder="sajin ahamed">
+    <input id="email" type="email" placeholder="sajinahamed1700@gmail.com">
+    <input id="phone" type="phone" placeholder="01996331867">
+    <input id="password" type="password" placeholder="1234">
+    <input id="confirm" type="confirm password" placeholder="1234">
+
+    <button onclick="register()">Register</button>
+
+    <div id="result"></div>
+</div>
              
+ 
+             <div class="container">
+    <h2>Activity Selection</h2>
+
+    <input id="activityInput" type="add activity" placeholder="sajin ahamed">
+    <button onclick="addActivity()">Add Activity</button>
+
+    <div id="activityList"></div>
+</div>
+
+<script>
+
+
            
            
 
