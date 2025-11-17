@@ -5,6 +5,8 @@
   <title>from page</title>
 </head>
 <body>
+
+<h1 id ="head">This </h1>
     <div>
         <h3 style="colour:blue;border: 3px"> student registration information  <h3><br>
          first name <br>
@@ -41,7 +43,13 @@
                comment/special request <br>
                <input type ="text" style ="height:90px;width:250px"><br>
                <button style="background-colour:green;colour:white; margin-bottom">
-               
+</div>
+
+<script>
+  var he = document.getElementById("head");
+  console.log(typeof he);
+</script>
+</body>
 
 
 
