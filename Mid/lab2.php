@@ -103,6 +103,30 @@
 </div>
 
 <script>
+    function register() {
+    let name = document.getElementById("fullname").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let pass = document.getElementById("password").value;
+    let confirm = document.getElementById("confirm").value;
+
+    
+    if (!name || !email || !phone || !pass || !confirm) {
+        alert("All fields are required!");
+        return;
+    }
+    if (!email.includes("@")) {
+        alert("Email must contain @");
+        return;
+    }
+    if (!/^\d+$/.test(phone)) {
+        alert("Phone must contain only digits!");
+        return;
+    }
+    if (pass !== confirm) {
+        alert("Passwords do not match!");
+        return;
+    }
 
 
            
