@@ -18,7 +18,7 @@ $profile = getProfile($username);
 <body>
 
 <div class="box">
-<h2>My Profile</h2>
+<h2>My Profiles</h2>
 
 <?php
 if(isset($_GET['success'])){
