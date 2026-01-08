@@ -69,7 +69,7 @@ if ($error != "") {
 <button type="submit" name="login">Login</button>
 </form>
 
-<p><a href="register.php">New User? Register</a></p>
+<p><a href="register.php">New User? Registers</a></p>
 </div>
 
 </body>
