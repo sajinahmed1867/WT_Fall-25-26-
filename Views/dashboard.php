@@ -29,7 +29,7 @@ if(!isset($_SESSION['user'])) header("Location: index.php");
     <li><a href="logout.php">Logout</a></li>
 </ul>
 
-<!-- <?php } else { ?>
+<?php } else { ?>
 
 <p>Welcome, <?php echo $_SESSION['user']; ?></p>
 
@@ -39,7 +39,7 @@ if(!isset($_SESSION['user'])) header("Location: index.php");
     <li><a href="logout.php">Logout</a></li>
 </ul>
 
-<?php } ?> -->
+<?php } ?> 
 
 </div>
 </body>
