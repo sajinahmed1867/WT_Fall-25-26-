@@ -7,7 +7,7 @@
 <body>
 
 <div class="box">
-    <h2>User Registration</h2>
+    <h2>Users Registration</h2>
 
     <?php
     if (isset($_GET['success'])) {
