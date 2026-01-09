@@ -19,7 +19,7 @@ if(!isset($_SESSION['user'])) header("Location: index.php");
 <p>Welcome, <?php echo $_SESSION['user']; ?></p>
 
 <ul>
-    <li><a href="student-courses.php">View Courses & Marks</a></li>
+    <li><a href="view-course&marks.php">View Courses & Marks</a></li>
     <li><a href="register-course.php">Register New Course</a></li>
     <li><a href="contact-faculty.php">Contact with Faculty</a></li>
     <li><a href="notice.php">Notices</a></li>
